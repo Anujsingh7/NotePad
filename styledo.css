@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
+    position: relative;
+
+}
+.container{
+width: 450px;
+background-color: aliceblue;
+border-radius: 15px;
+box-shadow: 0px 2px 9px;
+height: 87%;
+position: absolute;
+left: 50%;
+top :50%;
+transform: translate(-50%,-50%); 
+ text-align: center;
+
+}
+h1{
+    font-size: 36px;
+    color: rgb(34, 22, 4);
+    margin: 30px 0 45px;
+
+}
+.row{
+    padding: 0 40px;
+}
+input{
+    width: 100%;
+    background:#dfecee;
+    box-shadow: 5px 5px 10px -4px black;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    padding: 17px 20px;
+    
+
+}
+.row input::placeholder{
+    font-size: 20px;
+    color: #798286;
+    font-family: 'Times New Roman', Times, serif;
+}
+input.icon{
+    font-size: 35px;
+    color:rgb(225, 235, 225);
+    background-color: rgb(8, 172, 8);
+    width: auto;
+    border-radius: 50%;
+    padding: 0px 12px;
+    position: relative;
+    right: -43.5%;
+    top: -47px;
+    border: 1px solid transparent;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.icon:hover{
+    color: aquamarine;
+    background-color: white;
+    border-color: #137906;
+}
+h4{
+    font-size: 24px;
+    margin: 20px 0 40px;
+}
+.row  ul.task_list{
+    list-style: none;
+    text-align: left;
+    
+}
+.row ul.task_list li{
+
+    /* width: 80%; */
+     background:#dfecee;
+    box-shadow: 5px 5px 10px -4px black;
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin-bottom: 17px;
+    font-size: 19px;
+    color: #686363;
+    position:relative;
+}
+.row ul.task_list li span{
+position:absolute;
+font-size: 22px;
+right: 3px;
+top: 6px;
+padding: 9px 14px;
+border-radius: 50%;
+border-shadow:0px 0px 23px -5px black;
+cursor: pointer;
+transition: all .3s ease;
+}
+.row ul.task_list li span:hover{
+    color: white;
+    background-color: red;
+}
